@@ -1,0 +1,33 @@
+Experiment #1
+
+1. Keyword-based extraction
+
+Other patterns mentioned in the text often come with few keywords like:
+"see also", "used with", "used after", "apply before", "related pattern", "requires", "composed of", "alternative to"
+
+We could possibly divide these words into a few groups such as:
+"never use", "before", "after", "always together", "order does no matter"
+or even into percentage based categories:
+10%, 20%, ..., 90%, 100%
+based on the keyword meaning:
+never use: 0%
+could use: 50%
+always use: 100%
+this text representation coeficient to use the pattern could be multiplicated by times mentioned in the text
+
+Advantages of this method:
+Quite simple to implement
+Probably would work good on well written texts
+
+
+Possible problems:
+
+#1
+This idea does not take context into account, pattern could be mentioned in one sentence and strongly advised not
+to be used in the next one. We might approach this issue by checking whether the pattern is mentioned in the sentence before and after.
+
+#2
+This idea also lacks understanding the text when synonyms are used.
+
+
+Experiment result
