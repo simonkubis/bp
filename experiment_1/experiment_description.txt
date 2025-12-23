@@ -1,33 +1,36 @@
 Experiment #1
 
-1. Keyword-based extraction
+1. Keyword extraction
 
-Other patterns mentioned in the text often come with few keywords like:
+Other patterns mentioned in the text description of a pattern 
+are often connected by specific keywords or phrases indicating a relationship between patterns.
 "see also", "used with", "used after", "apply before", "related pattern", "requires", "composed of", "alternative to"
 
-We could possibly divide these words into a few groups such as:
-"never use", "before", "after", "always together", "order does no matter"
-or even into percentage based categories:
-10%, 20%, ..., 90%, 100%
-based on the keyword meaning:
-never use: 0%
-could use: 50%
-always use: 100%
-this text representation coeficient to use the pattern could be multiplicated by times mentioned in the text
+The identified keywords can be divided into groups representing the strength or level of their relationship.
+1. Negative relationship - patterns should not be used together at all (possible words: "do not use", "never use")
+2. Neutral relationship - patterns are not neccesarily advised to be put together neither advised not to (possible words: "see also", "related to", "similar")
+3. Positive relationship - patterns are recommended or required to be used together (possible words: "must use", "always use", "together with")
+
+These categories can be further mapped to numeric coefficients 
+representing the estimated probability of a reliable joint usage of patterns (possible a range)
+never use: 0
+could use: 0.5
+always use: 1
+
+The final coefficient can then be multiplied by the number of occurrences of the keyword in the text,
+producing a simple quantitative score expressing the strength of the relationship between two patterns.
 
 Advantages of this method:
-Quite simple to implement
-Probably would work good on well written texts
-
+a) Simple to implement
+b) Computationally inexpensive
+b) Probably would work good on well written texts
 
 Possible problems:
-
-#1
+a)
 This idea does not take context into account, pattern could be mentioned in one sentence and strongly advised not
-to be used in the next one. We might approach this issue by checking whether the pattern is mentioned in the sentence before and after.
-
-#2
-This idea also lacks understanding the text when synonyms are used.
+to be used together in the next one. We might approach this issue by checking whether the pattern is mentioned again in the previous and following sentence to detect any relevant details.
+b) 
+This idea lacks understanding the text when synonyms are used, this again, could be possibly solved with a very extensive word lists.
 
 
 Experiment result
