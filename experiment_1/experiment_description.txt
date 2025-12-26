@@ -1,6 +1,6 @@
-Experiment #1
+Experiment #1 - explicit relations
 
-1. Keyword extraction
+Keyword extraction
 
 Other patterns mentioned in the text description of a pattern 
 are often connected by specific keywords or phrases indicating a relationship between patterns.
@@ -8,12 +8,12 @@ are often connected by specific keywords or phrases indicating a relationship be
 
 The identified keywords can be divided into groups representing the strength or level of their relationship.
 1. Negative relationship - patterns should not be used together at all (possible words: "do not use", "never use")
-2. Neutral relationship - patterns are not neccesarily advised to be put together neither advised not to (possible words: "see also", "related to", "similar")
+2. Neutral relationship - patterns are not neccesarily advised to be put together neither advised not to, indicating slightly positive relationship (possible words: "see also", "related to", "similar")
 3. Positive relationship - patterns are recommended or required to be used together (possible words: "must use", "always use", "together with")
 
 These categories can be further mapped to numeric coefficients 
 representing the estimated probability of a reliable joint usage of patterns (possible a range)
-never use: 0
+never use: -1
 could use: 0.5
 always use: 1
 

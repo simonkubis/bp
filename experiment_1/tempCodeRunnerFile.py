@@ -1,0 +1,2 @@
+ if other_pattern in sentence_norm and other_pattern not in pattern_title:
+                        print(f"+++---+++---+++---+++---DEBUG: Updating NEUTRAL weight between '{pattern_title}' and '{other_pattern}'")

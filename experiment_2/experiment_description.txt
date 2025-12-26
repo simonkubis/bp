@@ -1,8 +1,10 @@
-Experiment #2
+Experiment #2 - local contextual relations
 
-2. Co-occurrence window method
+Co-occurrence window method
 
-In this approach we want to simplify things to the lowest level. Let's suppose a window of area within multiple patterns can be mentioned.
+In this approach we want to simplify things to the low level. Let's suppose a window of area within multiple patterns can be mentioned.
 If pattern A and B appear in the same window (subcategory, paragraph, multiple sentences) we could count them as related. 
 Again to improve the quality we can keep count of these occurrences and consider them on the output.
+
+
 
