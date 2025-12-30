@@ -9,7 +9,7 @@ from collections import Counter
 import re
 
 # Load the patterns
-with open('../patterns.json', 'r', encoding='utf-8') as f:
+with open('./patterns.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 patterns = data['patterns']
