@@ -1,9 +1,0 @@
-Experiment #2
-
-Co-occurrence window method
-
-In this approach we want to simplify things to the low level. In this experiment we will easily gather all possible relationships (many false positives)
-This approach seems like a good idea as a quick check of relations for futher analysis and also result checking for other experiment results.
-
-
-
