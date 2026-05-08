@@ -1,0 +1,2615 @@
+{
+  "edges": [
+    {
+      "source": "secure embedded logging",
+      "target": "security logger and auditor",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "third party-based authentication",
+      "target": "transport layer security",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "third party-based authentication",
+      "target": "asymmetric encryption",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "third party-based authentication",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "third party-based authentication",
+      "target": "mutual authentication",
+      "keyword_weight": 0.25,
+      "mention_score": 0.666667,
+      "combined_score": 0.47
+    },
+    {
+      "source": "mutual authentication",
+      "target": "credential",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "password based key exchange",
+      "target": "asymmetric encryption",
+      "keyword_weight": 0.625,
+      "mention_score": 1.0,
+      "combined_score": 0.955
+    },
+    {
+      "source": "password based key exchange",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.125,
+      "mention_score": 0.5,
+      "combined_score": 0.29
+    },
+    {
+      "source": "static integrity properties",
+      "target": "dynamic integrity properties",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "dynamic integrity properties",
+      "target": "controlled virtual address space",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "dynamic integrity properties",
+      "target": "integrity protection",
+      "keyword_weight": 0.25,
+      "mention_score": 0.333333,
+      "combined_score": 0.36
+    },
+    {
+      "source": "integrity protection",
+      "target": "static integrity properties",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "integrity protection",
+      "target": "dynamic integrity properties",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "integrity attestation (remote attestation)",
+      "target": "integrity protection",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "content-dependent authorizer",
+      "target": "security logger and auditor",
+      "keyword_weight": 0.125,
+      "mention_score": 0.2,
+      "combined_score": 0.191
+    },
+    {
+      "source": "content-dependent authorizer",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "content-dependent authorizer",
+      "target": "authenticator",
+      "keyword_weight": 0.25,
+      "mention_score": 0.2,
+      "combined_score": 0.316
+    },
+    {
+      "source": "context-enhanced authorizer",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "history-based authentication",
+      "target": "credential",
+      "keyword_weight": 0.125,
+      "mention_score": 0.142857,
+      "combined_score": 0.172143
+    },
+    {
+      "source": "history-based authentication",
+      "target": "authenticator",
+      "keyword_weight": 0.625,
+      "mention_score": 1.0,
+      "combined_score": 0.955
+    },
+    {
+      "source": "fine-grain access control",
+      "target": "discretionary access control",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "whitelisting firewall",
+      "target": "packet filter firewall",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "secure boot (authenticated boot)",
+      "target": "authenticator",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "multilevel secure partitions",
+      "target": "multilevel security",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "multilevel secure partitions",
+      "target": "protected entry points",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "multilevel secure partitions",
+      "target": "protection rings",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "relays",
+      "target": "access control to physical structures",
+      "keyword_weight": 0.375,
+      "mention_score": 0.5,
+      "combined_score": 0.54
+    },
+    {
+      "source": "access control to physical structures",
+      "target": "relays",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "access control to physical structures",
+      "target": "alarm monitoring",
+      "keyword_weight": 0.25,
+      "mention_score": 0.2,
+      "combined_score": 0.316
+    },
+    {
+      "source": "access control to physical structures",
+      "target": "role-based access control",
+      "keyword_weight": 0.25,
+      "mention_score": 0.2,
+      "combined_score": 0.316
+    },
+    {
+      "source": "access control to physical structures",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 0.2,
+      "combined_score": 0.316
+    },
+    {
+      "source": "access control to physical structures",
+      "target": "single access point",
+      "keyword_weight": 0.125,
+      "mention_score": 0.1,
+      "combined_score": 0.158
+    },
+    {
+      "source": "single access point",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "single access point",
+      "target": "security session",
+      "keyword_weight": 0.375,
+      "mention_score": 0.75,
+      "combined_score": 0.6225
+    },
+    {
+      "source": "single access point",
+      "target": "check point",
+      "keyword_weight": 0.375,
+      "mention_score": 0.75,
+      "combined_score": 0.6225
+    },
+    {
+      "source": "single access point",
+      "target": "access control to physical structures",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "discretionary access control",
+      "target": "access control list",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "discretionary access control",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "anonymity set",
+      "target": "morphed representation",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "morphed representation",
+      "target": "anonymity set",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "layered encryption",
+      "target": "morphed representation",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "layered encryption",
+      "target": "asymmetric encryption",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "layered encryption",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "stateful firewall",
+      "target": "packet filter firewall",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "stateful firewall",
+      "target": "check point",
+      "keyword_weight": 0.125,
+      "mention_score": 0.142857,
+      "combined_score": 0.172143
+    },
+    {
+      "source": "secure channels",
+      "target": "asymmetric encryption",
+      "keyword_weight": 0.25,
+      "mention_score": 0.333333,
+      "combined_score": 0.36
+    },
+    {
+      "source": "secure channels",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.25,
+      "mention_score": 0.666667,
+      "combined_score": 0.47
+    },
+    {
+      "source": "input guard",
+      "target": "output guard",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "output guard",
+      "target": "input guard",
+      "keyword_weight": 1.0,
+      "mention_score": 1.0,
+      "combined_score": 1.33
+    },
+    {
+      "source": "fault container",
+      "target": "input guard",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "fault container",
+      "target": "output guard",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "actor and role lifecycle",
+      "target": "actor-based access rights",
+      "keyword_weight": 0.25,
+      "mention_score": 0.4,
+      "combined_score": 0.382
+    },
+    {
+      "source": "actor and role lifecycle",
+      "target": "role-based access control",
+      "keyword_weight": 0.125,
+      "mention_score": 0.2,
+      "combined_score": 0.191
+    },
+    {
+      "source": "actor and role lifecycle",
+      "target": "administrator object",
+      "keyword_weight": 0.125,
+      "mention_score": 0.2,
+      "combined_score": 0.191
+    },
+    {
+      "source": "policy enforcement",
+      "target": "role-based access control",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "administrator object",
+      "target": "actor and role lifecycle",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "administrator object",
+      "target": "capability",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "risk-based authenticator",
+      "target": "authenticator",
+      "keyword_weight": 0.625,
+      "mention_score": 1.0,
+      "combined_score": 0.955
+    },
+    {
+      "source": "risk-based authenticator",
+      "target": "security session",
+      "keyword_weight": 0.125,
+      "mention_score": 0.111111,
+      "combined_score": 0.161667
+    },
+    {
+      "source": "secure gui system",
+      "target": "single access point",
+      "keyword_weight": 0.25,
+      "mention_score": 0.5,
+      "combined_score": 0.415
+    },
+    {
+      "source": "secure gui system",
+      "target": "reference monitor",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "neuralyzer",
+      "target": "authenticator",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "web of trust",
+      "target": "asymmetric encryption",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "web of trust",
+      "target": "digital signature with hashing",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "web of trust",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "abstract ids",
+      "target": "behavior-based ids",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "abstract ids",
+      "target": "signature-based ids",
+      "keyword_weight": 0.125,
+      "mention_score": 0.75,
+      "combined_score": 0.3725
+    },
+    {
+      "source": "security session",
+      "target": "check point",
+      "keyword_weight": 0.75,
+      "mention_score": 1.0,
+      "combined_score": 1.08
+    },
+    {
+      "source": "security session",
+      "target": "role-based access control",
+      "keyword_weight": 0.125,
+      "mention_score": 0.090909,
+      "combined_score": 0.155
+    },
+    {
+      "source": "security session",
+      "target": "actor and role lifecycle",
+      "keyword_weight": 0.125,
+      "mention_score": 0.090909,
+      "combined_score": 0.155
+    },
+    {
+      "source": "abstract virtual private network",
+      "target": "authenticator",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "abstract virtual private network",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "asymmetric encryption",
+      "target": "secure channels",
+      "keyword_weight": 0.375,
+      "mention_score": 0.333333,
+      "combined_score": 0.485
+    },
+    {
+      "source": "behavior-based ids",
+      "target": "signature-based ids",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "circle of trust",
+      "target": "identity federation",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "circle of trust",
+      "target": "identity provider",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "controlled access session",
+      "target": "actor and role lifecycle",
+      "keyword_weight": 0.125,
+      "mention_score": 0.5,
+      "combined_score": 0.29
+    },
+    {
+      "source": "credential",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "credential",
+      "target": "authenticator",
+      "keyword_weight": 0.375,
+      "mention_score": 0.684211,
+      "combined_score": 0.600789
+    },
+    {
+      "source": "credential",
+      "target": "security session",
+      "keyword_weight": 0.125,
+      "mention_score": 0.052632,
+      "combined_score": 0.142368
+    },
+    {
+      "source": "credential",
+      "target": "circle of trust",
+      "keyword_weight": 0.125,
+      "mention_score": 0.105263,
+      "combined_score": 0.159737
+    },
+    {
+      "source": "digital signature with hashing",
+      "target": "asymmetric encryption",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "identity federation",
+      "target": "credential",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "identity federation",
+      "target": "identity provider",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "identity provider",
+      "target": "circle of trust",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "identity provider",
+      "target": "credential",
+      "keyword_weight": 0.375,
+      "mention_score": 0.25,
+      "combined_score": 0.4575
+    },
+    {
+      "source": "identity provider",
+      "target": "identity federation",
+      "keyword_weight": 0.375,
+      "mention_score": 0.25,
+      "combined_score": 0.4575
+    },
+    {
+      "source": "layered operating system",
+      "target": "modular operating system",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "microkernel operating system",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "microkernel operating system",
+      "target": "layered operating system",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "protection rings",
+      "target": "protected entry points",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "role-based access control",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "access control list",
+      "target": "policy-based access control",
+      "keyword_weight": 0.25,
+      "mention_score": 0.2,
+      "combined_score": 0.316
+    },
+    {
+      "source": "access control list",
+      "target": "capability",
+      "keyword_weight": 0.125,
+      "mention_score": 0.2,
+      "combined_score": 0.191
+    },
+    {
+      "source": "access control list",
+      "target": "policy enforcement",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "capability",
+      "target": "access control list",
+      "keyword_weight": 0.5,
+      "mention_score": 0.6,
+      "combined_score": 0.698
+    },
+    {
+      "source": "capability",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 0.2,
+      "combined_score": 0.191
+    },
+    {
+      "source": "policy-based access control",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "policy-based access control",
+      "target": "identity federation",
+      "keyword_weight": 0.125,
+      "mention_score": 0.25,
+      "combined_score": 0.2075
+    },
+    {
+      "source": "policy-based access control",
+      "target": "policy enforcement",
+      "keyword_weight": 0.125,
+      "mention_score": 0.75,
+      "combined_score": 0.3725
+    },
+    {
+      "source": "transport layer security",
+      "target": "authenticator",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "information obscurity",
+      "target": "demilitarized zone",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "information obscurity",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 0.25,
+      "combined_score": 0.2075
+    },
+    {
+      "source": "information obscurity",
+      "target": "known partners",
+      "keyword_weight": 0.125,
+      "mention_score": 0.25,
+      "combined_score": 0.2075
+    },
+    {
+      "source": "information obscurity",
+      "target": "anonymity set",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "information obscurity",
+      "target": "morphed representation",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "information obscurity",
+      "target": "hidden metadata",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "information obscurity",
+      "target": "layered encryption",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "signature-based ids",
+      "target": "reference monitor",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "virtual machine operating system",
+      "target": "reference monitor",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "front door",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "front door",
+      "target": "protection reverse proxy",
+      "keyword_weight": 0.5,
+      "mention_score": 1.0,
+      "combined_score": 0.83
+    },
+    {
+      "source": "front door",
+      "target": "single access point",
+      "keyword_weight": 0.25,
+      "mention_score": 0.166667,
+      "combined_score": 0.305
+    },
+    {
+      "source": "front door",
+      "target": "security session",
+      "keyword_weight": 0.25,
+      "mention_score": 0.333333,
+      "combined_score": 0.36
+    },
+    {
+      "source": "front door",
+      "target": "check point",
+      "keyword_weight": 0.25,
+      "mention_score": 0.333333,
+      "combined_score": 0.36
+    },
+    {
+      "source": "front door",
+      "target": "input guard",
+      "keyword_weight": 0.125,
+      "mention_score": 0.166667,
+      "combined_score": 0.18
+    },
+    {
+      "source": "reference monitor",
+      "target": "check point",
+      "keyword_weight": 0.25,
+      "mention_score": 0.2,
+      "combined_score": 0.316
+    },
+    {
+      "source": "controlled virtual address space",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 0.5,
+      "combined_score": 0.415
+    },
+    {
+      "source": "execution domain",
+      "target": "controlled object monitor",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "execution domain",
+      "target": "controlled process creator",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "execution domain",
+      "target": "secure pre-forking",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "execution domain",
+      "target": "secure gui system",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "access control requirements",
+      "target": "enterprise security services",
+      "keyword_weight": 0.125,
+      "mention_score": 0.133333,
+      "combined_score": 0.169
+    },
+    {
+      "source": "access control requirements",
+      "target": "authorization",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "access control requirements",
+      "target": "single access point",
+      "keyword_weight": 0.125,
+      "mention_score": 0.066667,
+      "combined_score": 0.147
+    },
+    {
+      "source": "access control requirements",
+      "target": "security session",
+      "keyword_weight": 0.125,
+      "mention_score": 0.066667,
+      "combined_score": 0.147
+    },
+    {
+      "source": "access control requirements",
+      "target": "check point",
+      "keyword_weight": 0.125,
+      "mention_score": 0.066667,
+      "combined_score": 0.147
+    },
+    {
+      "source": "access control requirements",
+      "target": "discretionary access control",
+      "keyword_weight": 0.125,
+      "mention_score": 0.066667,
+      "combined_score": 0.147
+    },
+    {
+      "source": "access control requirements",
+      "target": "mandatory access control",
+      "keyword_weight": 0.125,
+      "mention_score": 0.066667,
+      "combined_score": 0.147
+    },
+    {
+      "source": "audit requirements",
+      "target": "audit trails and logging requirements",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "audit trails and logging requirements",
+      "target": "capability",
+      "keyword_weight": 0.375,
+      "mention_score": 0.5,
+      "combined_score": 0.54
+    },
+    {
+      "source": "authorization",
+      "target": "packet filter firewall",
+      "keyword_weight": 0.125,
+      "mention_score": 0.5,
+      "combined_score": 0.29
+    },
+    {
+      "source": "authorization",
+      "target": "role-based access control",
+      "keyword_weight": 0.375,
+      "mention_score": 1.0,
+      "combined_score": 0.705
+    },
+    {
+      "source": "authorization",
+      "target": "reference monitor",
+      "keyword_weight": 0.125,
+      "mention_score": 0.5,
+      "combined_score": 0.29
+    },
+    {
+      "source": "automated i&a design alternatives",
+      "target": "i&a requirements",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "automated i&a design alternatives",
+      "target": "authenticator",
+      "keyword_weight": 0.125,
+      "mention_score": 0.133333,
+      "combined_score": 0.169
+    },
+    {
+      "source": "biometrics design alternatives",
+      "target": "i&a requirements",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "controlled object monitor",
+      "target": "reference monitor",
+      "keyword_weight": 0.25,
+      "mention_score": 1.0,
+      "combined_score": 0.58
+    },
+    {
+      "source": "check point",
+      "target": "single access point",
+      "keyword_weight": 0.625,
+      "mention_score": 1.0,
+      "combined_score": 0.955
+    },
+    {
+      "source": "check point",
+      "target": "security session",
+      "keyword_weight": 0.125,
+      "mention_score": 0.571429,
+      "combined_score": 0.313571
+    },
+    {
+      "source": "check point",
+      "target": "role-based access control",
+      "keyword_weight": 0.25,
+      "mention_score": 0.142857,
+      "combined_score": 0.297143
+    },
+    {
+      "source": "check point",
+      "target": "input guard",
+      "keyword_weight": 0.125,
+      "mention_score": 0.071429,
+      "combined_score": 0.148571
+    },
+    {
+      "source": "demilitarized zone",
+      "target": "intrusion detection requirements",
+      "keyword_weight": 0.125,
+      "mention_score": 0.5,
+      "combined_score": 0.29
+    },
+    {
+      "source": "enterprise partner communication",
+      "target": "security needs identification for enterprise assets",
+      "keyword_weight": 0.25,
+      "mention_score": 0.5,
+      "combined_score": 0.415
+    },
+    {
+      "source": "enterprise partner communication",
+      "target": "role-based access control",
+      "keyword_weight": 0.125,
+      "mention_score": 0.5,
+      "combined_score": 0.29
+    },
+    {
+      "source": "enterprise security approaches",
+      "target": "risk determination",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "enterprise security approaches",
+      "target": "enterprise security services",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "enterprise security services",
+      "target": "authenticator",
+      "keyword_weight": 0.25,
+      "mention_score": 0.75,
+      "combined_score": 0.4975
+    },
+    {
+      "source": "enterprise security services",
+      "target": "front door",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "i&a requirements",
+      "target": "enterprise security services",
+      "keyword_weight": 0.125,
+      "mention_score": 0.666667,
+      "combined_score": 0.345
+    },
+    {
+      "source": "i&a requirements",
+      "target": "front door",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "intrusion detection requirements",
+      "target": "audit trails and logging requirements",
+      "keyword_weight": 0.25,
+      "mention_score": 0.25,
+      "combined_score": 0.3325
+    },
+    {
+      "source": "known partners",
+      "target": "front door",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "known partners",
+      "target": "protection reverse proxy",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "known partners",
+      "target": "secure channels",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "packet filter firewall",
+      "target": "authorization",
+      "keyword_weight": 0.25,
+      "mention_score": 0.5,
+      "combined_score": 0.415
+    },
+    {
+      "source": "protection reverse proxy",
+      "target": "front door",
+      "keyword_weight": 0.125,
+      "mention_score": 0.333333,
+      "combined_score": 0.235
+    },
+    {
+      "source": "protection reverse proxy",
+      "target": "packet filter firewall",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "protection reverse proxy",
+      "target": "single access point",
+      "keyword_weight": 0.25,
+      "mention_score": 0.166667,
+      "combined_score": 0.305
+    },
+    {
+      "source": "proxy-based firewall",
+      "target": "stateful firewall",
+      "keyword_weight": 0.125,
+      "mention_score": 0.166667,
+      "combined_score": 0.18
+    },
+    {
+      "source": "proxy-based firewall",
+      "target": "packet filter firewall",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "role rights definition",
+      "target": "role-based access control",
+      "keyword_weight": 0.375,
+      "mention_score": 0.333333,
+      "combined_score": 0.485
+    },
+    {
+      "source": "security accounting requirements",
+      "target": "enterprise security services",
+      "keyword_weight": 0.125,
+      "mention_score": 1.0,
+      "combined_score": 0.455
+    },
+    {
+      "source": "security accounting requirements",
+      "target": "audit requirements",
+      "keyword_weight": 0.25,
+      "mention_score": 0.5,
+      "combined_score": 0.415
+    },
+    {
+      "source": "security accounting requirements",
+      "target": "audit trails and logging requirements",
+      "keyword_weight": 0.25,
+      "mention_score": 0.5,
+      "combined_score": 0.415
+    },
+    {
+      "source": "security accounting requirements",
+      "target": "intrusion detection requirements",
+      "keyword_weight": 0.25,
+      "mention_score": 0.5,
+      "combined_score": 0.415
+    },
+    {
+      "source": "mutual authentication",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "password based key exchange",
+      "target": "web of trust",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "static integrity properties",
+      "target": "integrity protection",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "static integrity properties",
+      "target": "secure storage",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "static integrity properties",
+      "target": "digital signature with hashing",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "dynamic integrity properties",
+      "target": "static integrity properties",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "software container",
+      "target": "virtual machine operating system",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "software container",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "software container",
+      "target": "controlled virtual address space",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "integrity protection",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "integrity attestation (remote attestation)",
+      "target": "secure storage",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "integrity attestation (remote attestation)",
+      "target": "digital signature with hashing",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "content-dependent authorizer",
+      "target": "fine-grain access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.1,
+      "combined_score": 0.033
+    },
+    {
+      "source": "content-dependent authorizer",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "context-enhanced authorizer",
+      "target": "content-dependent authorizer",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "history-based authentication",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.238095,
+      "combined_score": 0.078571
+    },
+    {
+      "source": "fine-grain access control",
+      "target": "content-dependent authorizer",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "fine-grain access control",
+      "target": "mandatory access control",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "fine-grain access control",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "fine-grain access control",
+      "target": "multilevel security",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "whitelisting firewall",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "whitelisting firewall",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "trust trap mitigation",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "secure boot (authenticated boot)",
+      "target": "static integrity properties",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "secure boot (authenticated boot)",
+      "target": "secure storage",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "alarm monitoring",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "relays",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "access control to physical structures",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "single access point",
+      "target": "front door",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "single access point",
+      "target": "protection reverse proxy",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "threat assessment",
+      "target": "security needs identification for enterprise assets",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "threat assessment",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "threat assessment",
+      "target": "vulnerability assessment",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "discretionary access control",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "discretionary access control",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "mandatory access control",
+      "target": "multilevel security",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "mandatory access control",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "mandatory access control",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "anonymity set",
+      "target": "layered encryption",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "morphed representation",
+      "target": "layered encryption",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "morphed representation",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "morphed representation",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "hidden metadata",
+      "target": "anonymity set",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "hidden metadata",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "secure pre-forking",
+      "target": "execution domain",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "stateful firewall",
+      "target": "whitelisting firewall",
+      "keyword_weight": 0.0,
+      "mention_score": 0.142857,
+      "combined_score": 0.047143
+    },
+    {
+      "source": "stateful firewall",
+      "target": "proxy-based firewall",
+      "keyword_weight": 0.0,
+      "mention_score": 0.571429,
+      "combined_score": 0.188571
+    },
+    {
+      "source": "secure channels",
+      "target": "anonymity set",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "secure channels",
+      "target": "morphed representation",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "secure channels",
+      "target": "hidden metadata",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "secure channels",
+      "target": "layered encryption",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "secure channels",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "secure channels",
+      "target": "information obscurity",
+      "keyword_weight": 0.0,
+      "mention_score": 0.666667,
+      "combined_score": 0.22
+    },
+    {
+      "source": "secure channels",
+      "target": "demilitarized zone",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "secure channels",
+      "target": "known partners",
+      "keyword_weight": 0.0,
+      "mention_score": 0.666667,
+      "combined_score": 0.22
+    },
+    {
+      "source": "input guard",
+      "target": "single access point",
+      "keyword_weight": 0.0,
+      "mention_score": 0.666667,
+      "combined_score": 0.22
+    },
+    {
+      "source": "input guard",
+      "target": "policy enforcement",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "input guard",
+      "target": "check point",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "output guard",
+      "target": "policy enforcement",
+      "keyword_weight": 0.0,
+      "mention_score": 0.058824,
+      "combined_score": 0.019412
+    },
+    {
+      "source": "fault container",
+      "target": "single access point",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "fault container",
+      "target": "policy enforcement",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "actor-based access rights",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "actor-based access rights",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "actor and role lifecycle",
+      "target": "security session",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "actor and role lifecycle",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "policy enforcement",
+      "target": "input guard",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "policy enforcement",
+      "target": "output guard",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "policy enforcement",
+      "target": "fault container",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "policy enforcement",
+      "target": "access control list",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "policy enforcement",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "administrator object",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "administrator object",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "privilege-limited role",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "role hierarchies",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "risk-based authenticator",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.111111,
+      "combined_score": 0.036667
+    },
+    {
+      "source": "risk-based authenticator",
+      "target": "information obscurity",
+      "keyword_weight": 0.0,
+      "mention_score": 0.111111,
+      "combined_score": 0.036667
+    },
+    {
+      "source": "risk determination",
+      "target": "threat assessment",
+      "keyword_weight": 0.0,
+      "mention_score": 0.6,
+      "combined_score": 0.198
+    },
+    {
+      "source": "risk determination",
+      "target": "asset valuation",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "risk determination",
+      "target": "vulnerability assessment",
+      "keyword_weight": 0.0,
+      "mention_score": 0.733333,
+      "combined_score": 0.242
+    },
+    {
+      "source": "secure gui system",
+      "target": "integrity protection",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "secure gui system",
+      "target": "mandatory access control",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "secure gui system",
+      "target": "authenticator",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "secure gui system",
+      "target": "controlled virtual address space",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "secure gui system",
+      "target": "execution domain",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "neuralyzer",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "neuralyzer",
+      "target": "security logger and auditor",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "security needs identification for enterprise assets",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "security needs identification for enterprise assets",
+      "target": "enterprise security approaches",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "security needs identification for enterprise assets",
+      "target": "enterprise security services",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "security session",
+      "target": "front door",
+      "keyword_weight": 0.0,
+      "mention_score": 0.090909,
+      "combined_score": 0.03
+    },
+    {
+      "source": "abstract virtual private network",
+      "target": "mutual authentication",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "asymmetric encryption",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "authenticator",
+      "target": "single access point",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "authenticator",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "authenticator",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "authenticator",
+      "target": "check point",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "circle of trust",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "controlled access session",
+      "target": "security session",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "controlled access session",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "credential",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.052632,
+      "combined_score": 0.017368
+    },
+    {
+      "source": "identity federation",
+      "target": "mutual authentication",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "identity federation",
+      "target": "circle of trust",
+      "keyword_weight": 0.0,
+      "mention_score": 0.4,
+      "combined_score": 0.132
+    },
+    {
+      "source": "layered operating system",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "microkernel operating system",
+      "target": "authenticator",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "microkernel operating system",
+      "target": "protected entry points",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "microkernel operating system",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.666667,
+      "combined_score": 0.22
+    },
+    {
+      "source": "protected entry points",
+      "target": "multilevel secure partitions",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "protected entry points",
+      "target": "protection rings",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "protected entry points",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "protected entry points",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "protection rings",
+      "target": "multilevel secure partitions",
+      "keyword_weight": 0.0,
+      "mention_score": 0.142857,
+      "combined_score": 0.047143
+    },
+    {
+      "source": "protection rings",
+      "target": "multilevel security",
+      "keyword_weight": 0.0,
+      "mention_score": 0.142857,
+      "combined_score": 0.047143
+    },
+    {
+      "source": "role-based access control",
+      "target": "policy enforcement",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "virtual address space structure selection",
+      "target": "secure storage",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "virtual address space structure selection",
+      "target": "controlled virtual address space",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "access control list",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "access control list",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "access control list",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "administrator hierarchy",
+      "target": "administrator object",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "administrator hierarchy",
+      "target": "role hierarchies",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "administrator hierarchy",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "administrator hierarchy",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "capability",
+      "target": "policy enforcement",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "capability",
+      "target": "credential",
+      "keyword_weight": 0.0,
+      "mention_score": 0.4,
+      "combined_score": 0.132
+    },
+    {
+      "source": "capability",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "capability",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "policy-based access control",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "policy-based access control",
+      "target": "access control list",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "policy-based access control",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "policy-based access control",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "transport layer security",
+      "target": "mutual authentication",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "transport layer security",
+      "target": "symmetric encryption",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "security logger and auditor",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "security logger and auditor",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "information obscurity",
+      "target": "secure channels",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "information obscurity",
+      "target": "security needs identification for enterprise assets",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "information obscurity",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "information obscurity",
+      "target": "protection reverse proxy",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "symmetric encryption",
+      "target": "asymmetric encryption",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "virtual machine operating system",
+      "target": "multilevel security",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "front door",
+      "target": "demilitarized zone",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "reference monitor",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "reference monitor",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "controlled virtual address space",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "controlled virtual address space",
+      "target": "reference monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "controlled object factory",
+      "target": "access control list",
+      "keyword_weight": 0.0,
+      "mention_score": 0.4,
+      "combined_score": 0.132
+    },
+    {
+      "source": "controlled object factory",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "controlled object factory",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "controlled object factory",
+      "target": "controlled object monitor",
+      "keyword_weight": 0.0,
+      "mention_score": 0.2,
+      "combined_score": 0.066
+    },
+    {
+      "source": "execution domain",
+      "target": "protection rings",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "execution domain",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "access control requirements",
+      "target": "fine-grain access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.066667,
+      "combined_score": 0.022
+    },
+    {
+      "source": "access control requirements",
+      "target": "access control to physical structures",
+      "keyword_weight": 0.0,
+      "mention_score": 0.066667,
+      "combined_score": 0.022
+    },
+    {
+      "source": "access control requirements",
+      "target": "role-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.133333,
+      "combined_score": 0.044
+    },
+    {
+      "source": "access control requirements",
+      "target": "policy-based access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.066667,
+      "combined_score": 0.022
+    },
+    {
+      "source": "access control requirements",
+      "target": "i&a requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.066667,
+      "combined_score": 0.022
+    },
+    {
+      "source": "asset valuation",
+      "target": "integrity protection",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "asset valuation",
+      "target": "threat assessment",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "asset valuation",
+      "target": "security needs identification for enterprise assets",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "asset valuation",
+      "target": "vulnerability assessment",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "audit requirements",
+      "target": "i&a requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "audit requirements",
+      "target": "security accounting requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "audit trails and logging requirements",
+      "target": "audit requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "audit trails and logging requirements",
+      "target": "i&a requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "automated i&a design alternatives",
+      "target": "front door",
+      "keyword_weight": 0.0,
+      "mention_score": 0.066667,
+      "combined_score": 0.022
+    },
+    {
+      "source": "automated i&a design alternatives",
+      "target": "biometrics design alternatives",
+      "keyword_weight": 0.0,
+      "mention_score": 0.066667,
+      "combined_score": 0.022
+    },
+    {
+      "source": "biometrics design alternatives",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "biometrics design alternatives",
+      "target": "automated i&a design alternatives",
+      "keyword_weight": 0.0,
+      "mention_score": 0.75,
+      "combined_score": 0.2475
+    },
+    {
+      "source": "controlled object monitor",
+      "target": "content-dependent authorizer",
+      "keyword_weight": 0.0,
+      "mention_score": 0.090909,
+      "combined_score": 0.03
+    },
+    {
+      "source": "controlled object monitor",
+      "target": "discretionary access control",
+      "keyword_weight": 0.0,
+      "mention_score": 0.181818,
+      "combined_score": 0.06
+    },
+    {
+      "source": "controlled object monitor",
+      "target": "access control list",
+      "keyword_weight": 0.0,
+      "mention_score": 0.272727,
+      "combined_score": 0.09
+    },
+    {
+      "source": "controlled object monitor",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.454545,
+      "combined_score": 0.15
+    },
+    {
+      "source": "check point",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.285714,
+      "combined_score": 0.094286
+    },
+    {
+      "source": "demilitarized zone",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "demilitarized zone",
+      "target": "protection reverse proxy",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "enterprise partner communication",
+      "target": "single access point",
+      "keyword_weight": 0.0,
+      "mention_score": 0.75,
+      "combined_score": 0.2475
+    },
+    {
+      "source": "enterprise partner communication",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "enterprise partner communication",
+      "target": "demilitarized zone",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "enterprise security approaches",
+      "target": "security needs identification for enterprise assets",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "enterprise security services",
+      "target": "security needs identification for enterprise assets",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "enterprise security services",
+      "target": "access control requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "enterprise security services",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "enterprise security services",
+      "target": "enterprise security approaches",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "enterprise security services",
+      "target": "i&a requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "enterprise security services",
+      "target": "security accounting requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "i&a requirements",
+      "target": "authenticator",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "i&a requirements",
+      "target": "automated i&a design alternatives",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "intrusion detection requirements",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "intrusion detection requirements",
+      "target": "i&a requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "intrusion detection requirements",
+      "target": "security accounting requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "known partners",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.333333,
+      "combined_score": 0.11
+    },
+    {
+      "source": "non-repudiation requirements",
+      "target": "i&a requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "non-repudiation requirements",
+      "target": "security accounting requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "packet filter firewall",
+      "target": "single access point",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "packet filter firewall",
+      "target": "stateful firewall",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "packet filter firewall",
+      "target": "demilitarized zone",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "protection reverse proxy",
+      "target": "capability",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "protection reverse proxy",
+      "target": "demilitarized zone",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "proxy-based firewall",
+      "target": "protection reverse proxy",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "role rights definition",
+      "target": "administrator object",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "role rights definition",
+      "target": "privilege-limited role",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "role rights definition",
+      "target": "role hierarchies",
+      "keyword_weight": 0.0,
+      "mention_score": 0.166667,
+      "combined_score": 0.055
+    },
+    {
+      "source": "role rights definition",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "security accounting requirements",
+      "target": "i&a requirements",
+      "keyword_weight": 0.0,
+      "mention_score": 0.5,
+      "combined_score": 0.165
+    },
+    {
+      "source": "vulnerability assessment",
+      "target": "threat assessment",
+      "keyword_weight": 0.0,
+      "mention_score": 1.0,
+      "combined_score": 0.33
+    },
+    {
+      "source": "vulnerability assessment",
+      "target": "risk determination",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    },
+    {
+      "source": "vulnerability assessment",
+      "target": "authorization",
+      "keyword_weight": 0.0,
+      "mention_score": 0.25,
+      "combined_score": 0.0825
+    }
+  ]
+}
