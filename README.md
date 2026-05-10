@@ -6,7 +6,7 @@ Aplikácia na zakladanie sekvencií a zlúčenín vzorov, ktoré sú očakávan�
 - načíta spracovaný katalóg vzorov
 - identifikuje vzťahy medzi vzormi
 - vytvorí výstupný súbor `pattern_edges.json`
-- zobrazí výsledky v Streamlit aplikácii
+- na základe vstupného vzoru založí sekvencie a zlúčeniny vzorov
 
 ## Požiadavky
 - Python 3.8 alebo novší

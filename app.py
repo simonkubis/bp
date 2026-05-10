@@ -21,7 +21,7 @@ STRONG_THRESHOLD   = 0.4
 MEDIUM_THRESHOLD   = 0.1
 
 # Maximálna dĺžka generovanej sekvencie vzorov
-MAX_SEQUENCE_LENGTH = 10
+MAX_SEQUENCE_LENGTH = 5
 
 # =============================================================================
 # INICIALIZÁCIA STAVU RELÁCIE
@@ -42,17 +42,13 @@ if "log_messages"    not in st.session_state:
 # =============================================================================
 
 def log_message(msg):
-    """Uloží interný ladiaci výpis do stavu relácie (nezobrazuje sa používateľovi)."""
     st.session_state.log_messages.append(msg)
 
 
 def classify_posterior_strength(posterior_prob,
                                  strong_threshold=STRONG_THRESHOLD,
                                  medium_threshold=MEDIUM_THRESHOLD):
-    """
-    Klasifikuje silu vzťahu na základe hodnoty posteriornej pravdepodobnosti.
-    Vracia trojicu (sila, farebný indikátor v Markdown, slovenský popis).
-    """
+
     if posterior_prob >= strong_threshold:
         return "strong", ":green[●]", "silný"
     elif posterior_prob >= medium_threshold:
@@ -65,10 +61,7 @@ def classify_posterior_strength(posterior_prob,
 # =============================================================================
 
 def load_parsed_catalog(file_path):
-    """
-    Načíta súbor parsed_catalog.json s názvami a opismi vzorov.
-    Vráti slovník alebo None pri chybe.
-    """
+
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -80,11 +73,7 @@ def load_parsed_catalog(file_path):
 
 
 def run_analyze_script(catalog_path):
-    """
-    Spustí externý skript analyze_patterns.py, ktorý z katalógu vypočíta
-    hrany (vzťahy) medzi vzormi a uloží ich do pattern_edges.json.
-    Vráti True pri úspechu, False pri chybe.
-    """
+
     try:
         result = subprocess.run(
             ["python", ANALYZE_SCRIPT],
@@ -104,10 +93,7 @@ def run_analyze_script(catalog_path):
 
 
 def load_pattern_edges(file_path=EDGES_FILE):
-    """
-    Načíta súbor pattern_edges.json vygenerovaný skriptom analyze_patterns.py.
-    Vráti slovník s kľúčom 'edges' alebo None pri chybe.
-    """
+
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -122,20 +108,12 @@ def load_pattern_edges(file_path=EDGES_FILE):
 # =============================================================================
 
 def calculate_uniform_prior(num_patterns):
-    """
-    Vypočíta rovnomernú apriórnu pravdepodobnosť pre každý vzor.
-    Predpokladáme, že pred analýzou sú všetky vzory rovnako pravdepodobné byž použité spolu.
-    """
+
     return 1.0 / num_patterns if num_patterns > 0 else 0.0
 
 
 def build_likelihood_matrix(pattern_names, edges):
-    """
-    Zostaví maticu vierohodnosti L[i, j] = P(B | A) z načítaných hrán.
-    Hodnoty pochádzajú z poľa combined_score, ktoré skript analyze_patterns.py
-    priradí každej hrane na základe textovej analýzy opisov vzorov.
-    Riadky = zdrojový vzor A, stĺpce = cieľový vzor B.
-    """
+
     n           = len(pattern_names)
     pattern_idx = {p.lower(): i for i, p in enumerate(pattern_names)}
     likelihood  = np.zeros((n, n))
@@ -154,19 +132,7 @@ def build_likelihood_matrix(pattern_names, edges):
 
 
 def calculate_posterior(prior, likelihood):
-    """
-    Vypočíta posteriorné pravdepodobnosti pomocou Bayesovho pravidla.
 
-    Pre každý zdrojový vzor i a cieľový vzor j platí:
-        P(j | i) = L[i,j] * P(j) / Z
-    kde Z je normalizačná konštanta (suma čitateľov cez všetky j).
-
-    Keďže prior je rovnomerný (rovnaká hodnota pre každé j), zjednoduší sa na:
-        P(j | i) = L[i,j] / sum_k( L[i,k] )
-
-    Diagonála sa vynuluje (vzor sa neodkazuje sám na seba) a riadky sa
-    renormalizujú, aby súčet pravdepodobností zostal 1.
-    """
     n         = likelihood.shape[0]
     posterior = np.zeros_like(likelihood, dtype=float)
 
@@ -193,10 +159,7 @@ def calculate_posterior(prior, likelihood):
 
 
 def create_markov_chain(posterior, pattern_names):
-    """
-    Prevedie posteriornu maticu na Markovov reťazec reprezentovaný
-    ako vnorený slovník: chain[zdrojový_vzor][cieľový_vzor] = pravdepodobnosť.
-    """
+
     chain = {}
     for i, src in enumerate(pattern_names):
         src_lower        = src.lower()
@@ -215,12 +178,7 @@ def create_markov_chain(posterior, pattern_names):
 # =============================================================================
 
 def find_compound_patterns(chain, input_patterns, threshold=MEDIUM_THRESHOLD):
-    """
-    Nájde vzory, ktoré majú obojsmerný vzťah so všetkými zadanými vzormi.
 
-    Podmienka: pre každý vstupný vzor musí existovať nenulová pravdepodobnosť
-    v oboch smeroch (vpred aj vzad) s kandidátom, a priemer musí presiahnuť prah.
-    """
     input_lower = [p.lower() for p in input_patterns]
     compounds   = {}
 
@@ -332,7 +290,7 @@ with st.sidebar:
     st.markdown("**Význam signálov pre zlúčeniny:**")
     st.markdown("🟢 Silný vzťah")
     st.markdown("🟠 Stredný vzťah")
-    st.markdown("🔴 Slabý vzťah")
+
 
 # =============================================================================
 # POUŽÍVATEĽSKÉ ROZHRANIE – NAČÍTAVANIE A SPRACOVANIE
@@ -435,7 +393,7 @@ if st.session_state.markov_chain:
 
             # --- Sekvenčné rozšírenie zadaných vzorov ---
             st.markdown("### Sekvencia vzorov")
-            sequence = find_sequence_patterns(chain, known_patterns, max_length=5)
+            sequence = find_sequence_patterns(chain, known_patterns, max_length=MAX_SEQUENCE_LENGTH)
 
             if len(sequence) > len(known_patterns):
                 st.code(" -> ".join([p.title() for p in sequence]))
